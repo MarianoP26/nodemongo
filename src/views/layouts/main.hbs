@@ -14,9 +14,11 @@
 </head>
 <body>
     
-    <p>Navigation</p>
+    {{> navigation}}
 
     <main = class="container">
+        {{> messages}}
+        {{> errors}}
         {{{ body }}}
 
     </main>
