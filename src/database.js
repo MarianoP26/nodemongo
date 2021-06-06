@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const url = 'mongodb+srv://Mariano:menime33@core.r48ze.mongodb.net/notesdb?retryWrites=true&w=majority';
+const url = 'mongodb+srv://Mariano:hidden@core.r48ze.mongodb.net/notesdb?retryWrites=true&w=majority';
 
 mongoose.connect(url, {
     useCreateIndex: true,
